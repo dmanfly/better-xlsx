@@ -13,8 +13,7 @@
     "report": "nyc report --reporter=html",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "doc": "rimraf esdoc && esdoc",
-    "pages": "npm run doc && gh-pages -d esdoc",
-    "postinstall": "opencollective postinstall"
+    "pages": "npm run doc && gh-pages -d esdoc"
   },
   "nyc": {
     "include": [
