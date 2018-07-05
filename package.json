@@ -2,7 +2,7 @@
   "name": "better-xlsx",
   "version": "0.7.0",
   "description": "A better xlsx lib for read / write / toTable / from Table",
-  "main": "lib/index.js",
+  "main": "dist/xlsx.js",
   "scripts": {
     "lint": "eslint --ext .js src test",
     "build": "npm run build:node && npm run build:dist",
